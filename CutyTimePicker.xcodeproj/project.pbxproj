@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		210AE5121A7FED5D00AFBACC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210AE5111A7FED5D00AFBACC /* AppDelegate.swift */; };
+		210AE5141A7FED5D00AFBACC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210AE5131A7FED5D00AFBACC /* ViewController.swift */; };
+		210AE5171A7FED5D00AFBACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210AE5151A7FED5D00AFBACC /* Main.storyboard */; };
+		210AE5191A7FED5D00AFBACC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210AE5181A7FED5D00AFBACC /* Images.xcassets */; };
+		210AE51C1A7FED5D00AFBACC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 210AE51A1A7FED5D00AFBACC /* LaunchScreen.xib */; };
+		210AE5281A7FED5D00AFBACC /* CutyTimePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210AE5271A7FED5D00AFBACC /* CutyTimePickerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		210AE5221A7FED5D00AFBACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 210AE5041A7FED5C00AFBACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 210AE50B1A7FED5D00AFBACC;
+			remoteInfo = CutyTimePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		210AE50C1A7FED5D00AFBACC /* CutyTimePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CutyTimePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		210AE5101A7FED5D00AFBACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		210AE5111A7FED5D00AFBACC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		210AE5131A7FED5D00AFBACC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		210AE5161A7FED5D00AFBACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		210AE5181A7FED5D00AFBACC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		210AE51B1A7FED5D00AFBACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		210AE5211A7FED5D00AFBACC /* CutyTimePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CutyTimePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		210AE5261A7FED5D00AFBACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		210AE5271A7FED5D00AFBACC /* CutyTimePickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutyTimePickerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		210AE5091A7FED5D00AFBACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		210AE51E1A7FED5D00AFBACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		210AE5031A7FED5C00AFBACC = {
+			isa = PBXGroup;
+			children = (
+				210AE50E1A7FED5D00AFBACC /* CutyTimePicker */,
+				210AE5241A7FED5D00AFBACC /* CutyTimePickerTests */,
+				210AE50D1A7FED5D00AFBACC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		210AE50D1A7FED5D00AFBACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				210AE50C1A7FED5D00AFBACC /* CutyTimePicker.app */,
+				210AE5211A7FED5D00AFBACC /* CutyTimePickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		210AE50E1A7FED5D00AFBACC /* CutyTimePicker */ = {
+			isa = PBXGroup;
+			children = (
+				210AE5111A7FED5D00AFBACC /* AppDelegate.swift */,
+				210AE5131A7FED5D00AFBACC /* ViewController.swift */,
+				210AE5151A7FED5D00AFBACC /* Main.storyboard */,
+				210AE5181A7FED5D00AFBACC /* Images.xcassets */,
+				210AE51A1A7FED5D00AFBACC /* LaunchScreen.xib */,
+				210AE50F1A7FED5D00AFBACC /* Supporting Files */,
+			);
+			path = CutyTimePicker;
+			sourceTree = "<group>";
+		};
+		210AE50F1A7FED5D00AFBACC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				210AE5101A7FED5D00AFBACC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		210AE5241A7FED5D00AFBACC /* CutyTimePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				210AE5271A7FED5D00AFBACC /* CutyTimePickerTests.swift */,
+				210AE5251A7FED5D00AFBACC /* Supporting Files */,
+			);
+			path = CutyTimePickerTests;
+			sourceTree = "<group>";
+		};
+		210AE5251A7FED5D00AFBACC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				210AE5261A7FED5D00AFBACC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		210AE50B1A7FED5D00AFBACC /* CutyTimePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 210AE52B1A7FED5D00AFBACC /* Build configuration list for PBXNativeTarget "CutyTimePicker" */;
+			buildPhases = (
+				210AE5081A7FED5D00AFBACC /* Sources */,
+				210AE5091A7FED5D00AFBACC /* Frameworks */,
+				210AE50A1A7FED5D00AFBACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CutyTimePicker;
+			productName = CutyTimePicker;
+			productReference = 210AE50C1A7FED5D00AFBACC /* CutyTimePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		210AE5201A7FED5D00AFBACC /* CutyTimePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 210AE52E1A7FED5D00AFBACC /* Build configuration list for PBXNativeTarget "CutyTimePickerTests" */;
+			buildPhases = (
+				210AE51D1A7FED5D00AFBACC /* Sources */,
+				210AE51E1A7FED5D00AFBACC /* Frameworks */,
+				210AE51F1A7FED5D00AFBACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				210AE5231A7FED5D00AFBACC /* PBXTargetDependency */,
+			);
+			name = CutyTimePickerTests;
+			productName = CutyTimePickerTests;
+			productReference = 210AE5211A7FED5D00AFBACC /* CutyTimePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		210AE5041A7FED5C00AFBACC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = TakanoriMatsumoto;
+				TargetAttributes = {
+					210AE50B1A7FED5D00AFBACC = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					210AE5201A7FED5D00AFBACC = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 210AE50B1A7FED5D00AFBACC;
+					};
+				};
+			};
+			buildConfigurationList = 210AE5071A7FED5C00AFBACC /* Build configuration list for PBXProject "CutyTimePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 210AE5031A7FED5C00AFBACC;
+			productRefGroup = 210AE50D1A7FED5D00AFBACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				210AE50B1A7FED5D00AFBACC /* CutyTimePicker */,
+				210AE5201A7FED5D00AFBACC /* CutyTimePickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		210AE50A1A7FED5D00AFBACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				210AE5171A7FED5D00AFBACC /* Main.storyboard in Resources */,
+				210AE51C1A7FED5D00AFBACC /* LaunchScreen.xib in Resources */,
+				210AE5191A7FED5D00AFBACC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		210AE51F1A7FED5D00AFBACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		210AE5081A7FED5D00AFBACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				210AE5141A7FED5D00AFBACC /* ViewController.swift in Sources */,
+				210AE5121A7FED5D00AFBACC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		210AE51D1A7FED5D00AFBACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				210AE5281A7FED5D00AFBACC /* CutyTimePickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		210AE5231A7FED5D00AFBACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 210AE50B1A7FED5D00AFBACC /* CutyTimePicker */;
+			targetProxy = 210AE5221A7FED5D00AFBACC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		210AE5151A7FED5D00AFBACC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				210AE5161A7FED5D00AFBACC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		210AE51A1A7FED5D00AFBACC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				210AE51B1A7FED5D00AFBACC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		210AE5291A7FED5D00AFBACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		210AE52A1A7FED5D00AFBACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		210AE52C1A7FED5D00AFBACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CutyTimePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		210AE52D1A7FED5D00AFBACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CutyTimePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		210AE52F1A7FED5D00AFBACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CutyTimePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CutyTimePicker.app/CutyTimePicker";
+			};
+			name = Debug;
+		};
+		210AE5301A7FED5D00AFBACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CutyTimePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CutyTimePicker.app/CutyTimePicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		210AE5071A7FED5C00AFBACC /* Build configuration list for PBXProject "CutyTimePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210AE5291A7FED5D00AFBACC /* Debug */,
+				210AE52A1A7FED5D00AFBACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		210AE52B1A7FED5D00AFBACC /* Build configuration list for PBXNativeTarget "CutyTimePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210AE52C1A7FED5D00AFBACC /* Debug */,
+				210AE52D1A7FED5D00AFBACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		210AE52E1A7FED5D00AFBACC /* Build configuration list for PBXNativeTarget "CutyTimePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210AE52F1A7FED5D00AFBACC /* Debug */,
+				210AE5301A7FED5D00AFBACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 210AE5041A7FED5C00AFBACC /* Project object */;
+}
