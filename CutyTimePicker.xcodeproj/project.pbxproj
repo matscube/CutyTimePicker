@@ -13,6 +13,7 @@
 		210AE5191A7FED5D00AFBACC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210AE5181A7FED5D00AFBACC /* Images.xcassets */; };
 		210AE51C1A7FED5D00AFBACC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 210AE51A1A7FED5D00AFBACC /* LaunchScreen.xib */; };
 		210AE5281A7FED5D00AFBACC /* CutyTimePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210AE5271A7FED5D00AFBACC /* CutyTimePickerTests.swift */; };
+		214A86B81A8297EF00ECC567 /* TimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214A86B71A8297EF00ECC567 /* TimeManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		210AE5211A7FED5D00AFBACC /* CutyTimePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CutyTimePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		210AE5261A7FED5D00AFBACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		210AE5271A7FED5D00AFBACC /* CutyTimePickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutyTimePickerTests.swift; sourceTree = "<group>"; };
+		214A86B71A8297EF00ECC567 /* TimeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				210AE5181A7FED5D00AFBACC /* Images.xcassets */,
 				210AE51A1A7FED5D00AFBACC /* LaunchScreen.xib */,
 				210AE50F1A7FED5D00AFBACC /* Supporting Files */,
+				214A86B71A8297EF00ECC567 /* TimeManager.swift */,
 			);
 			path = CutyTimePicker;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				210AE5141A7FED5D00AFBACC /* ViewController.swift in Sources */,
 				210AE5121A7FED5D00AFBACC /* AppDelegate.swift in Sources */,
+				214A86B81A8297EF00ECC567 /* TimeManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +409,7 @@
 				210AE52D1A7FED5D00AFBACC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		210AE52E1A7FED5D00AFBACC /* Build configuration list for PBXNativeTarget "CutyTimePickerTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				210AE5301A7FED5D00AFBACC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
