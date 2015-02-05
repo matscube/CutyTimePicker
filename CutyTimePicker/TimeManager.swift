@@ -46,5 +46,51 @@ class TimeManager {
         let range: NSRange = calendar.rangeOfUnit(NSCalendarUnit.CalendarUnitDay, inUnit: NSCalendarUnit.CalendarUnitMonth, forDate: date)
         return UInt(range.length)
     }
+    func getMonthDaySet(year: Int, month: Int) -> [NSDate] {
+        let monthSize = getMonthSize(year, month: month)
+        var result = [NSDate]()
+        for day in 1..<(monthSize + 1) {
+            let date = getDate(year, month: month, day: Int(day))
+            result.append(date)
+        }
+        return result
+    }
+    func getCalendarMonthDaySet(year: Int, month: Int) -> [NSDate] {
+        var monthDaySet = getMonthDaySet(year, month: month)
+
+        let firstDate = monthDaySet.first!
+        let lastDate = monthDaySet.last!
+        let firstDateComp = getDateComponents(firstDate)
+        let lastDateComp = getDateComponents(lastDate)
+
+        if firstDateComp.weekday != 1 {
+            let startDate = getDate(year, month: month, day: 2 - firstDateComp.weekday)
+            let dateComp = getDateComponents(startDate)
+            let monthSize = getMonthSize(dateComp.year, month: dateComp.month)
+            
+            var beforeMonthDaySet = [NSDate]()
+            for var i = dateComp.day; i <= Int(monthSize); i++ {
+                beforeMonthDaySet.append(getDate(dateComp.year, month: dateComp.month, day: i))
+            }
+            monthDaySet = beforeMonthDaySet + monthDaySet
+        }
+        
+        if lastDateComp.weekday != 7 {
+            var nextYear = lastDateComp.year
+            var nextMonth = lastDateComp.month + 1
+            if nextMonth == 13 {
+                nextYear++
+                nextMonth = 1
+            }
+            var nextMonthDaySet = [NSDate]()
+            
+            for var i = 1; i <= (7 - lastDateComp.weekday); i++ {
+                nextMonthDaySet.append(getDate(nextYear, month: nextMonth, day: i))
+            }
+            monthDaySet = monthDaySet + nextMonthDaySet
+        }
+        
+        return monthDaySet
+    }
     
 }
