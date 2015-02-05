@@ -14,6 +14,7 @@
 		210AE51C1A7FED5D00AFBACC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 210AE51A1A7FED5D00AFBACC /* LaunchScreen.xib */; };
 		210AE5281A7FED5D00AFBACC /* CutyTimePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210AE5271A7FED5D00AFBACC /* CutyTimePickerTests.swift */; };
 		214A86B81A8297EF00ECC567 /* TimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214A86B71A8297EF00ECC567 /* TimeManager.swift */; };
+		214A86BC1A83BD3E00ECC567 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214A86BB1A83BD3E00ECC567 /* CalendarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		210AE5261A7FED5D00AFBACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		210AE5271A7FED5D00AFBACC /* CutyTimePickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutyTimePickerTests.swift; sourceTree = "<group>"; };
 		214A86B71A8297EF00ECC567 /* TimeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeManager.swift; sourceTree = "<group>"; };
+		214A86BB1A83BD3E00ECC567 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				210AE51A1A7FED5D00AFBACC /* LaunchScreen.xib */,
 				210AE50F1A7FED5D00AFBACC /* Supporting Files */,
 				214A86B71A8297EF00ECC567 /* TimeManager.swift */,
+				214A86BB1A83BD3E00ECC567 /* CalendarViewController.swift */,
 			);
 			path = CutyTimePicker;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				214A86BC1A83BD3E00ECC567 /* CalendarViewController.swift in Sources */,
 				210AE5141A7FED5D00AFBACC /* ViewController.swift in Sources */,
 				210AE5121A7FED5D00AFBACC /* AppDelegate.swift in Sources */,
 				214A86B81A8297EF00ECC567 /* TimeManager.swift in Sources */,
