@@ -98,7 +98,11 @@ class CalendarViewController: UIViewController, UICollectionViewDelegate, UIColl
         return cell
     }
     private func labelCell(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+        let row = indexPath.row
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier(LabelCellReuseIdentifier, forIndexPath: indexPath) as UICollectionViewCell
+        let dateFormatter = NSDateFormatter()
+        dateFormatter.dateFormat = "EE"
+//        let weekDayName = dateFormatter.stringFromDate(<#date: NSDate#>)
         return cell
     }
     private func dayCell(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
