@@ -22,6 +22,7 @@ class CalendarViewController: UIViewController, UICollectionViewDelegate, UIColl
         calendar.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: DayCellReuseIdentifier)
         calendar.delegate = self
         calendar.dataSource = self
+        calendar.backgroundColor = UIColor.whiteColor()
         view.addSubview(calendar)
         
         view.backgroundColor = UIColor.blueColor()
