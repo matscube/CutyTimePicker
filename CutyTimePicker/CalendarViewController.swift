@@ -116,7 +116,7 @@ class CalendarViewController: UIViewController, UICollectionViewDelegate, UIColl
         return cell
     }
     private func dayCell(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(DayCellReuseIdentifier, forIndexPath: indexPath) as UICollectionViewCell
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(DayCellReuseIdentifier, forIndexPath: indexPath) as DayCell
         let row = indexPath.row
         
         let date = daySet[row]
