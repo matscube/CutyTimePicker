@@ -18,6 +18,6 @@ class DayCell: UICollectionViewCell {
     }
     
     func setDateComp(dateComp: NSDateComponents) {
-        
+        let day = dateComp.day
     }
 }
