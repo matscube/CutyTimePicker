@@ -17,6 +17,10 @@ class DayCell: UICollectionViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
+    override func layoutSubviews() {
+        super.layoutSubviews()
+    }
+    
     let dateLabel = UILabel()
     func setDateComp(dateComp: NSDateComponents) {
         let day = dateComp.day
