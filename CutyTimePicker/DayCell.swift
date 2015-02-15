@@ -17,6 +17,7 @@ class DayCell: UICollectionViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
+    let dateLabel = UILabel()
     func setDateComp(dateComp: NSDateComponents) {
         let day = dateComp.day
     }
