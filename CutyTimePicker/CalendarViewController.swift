@@ -19,7 +19,7 @@ class CalendarViewController: UIViewController, UICollectionViewDelegate, UIColl
         let layout = UICollectionViewFlowLayout()
         calendar = UICollectionView(frame: view.bounds, collectionViewLayout: layout)
         calendar.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: LabelCellReuseIdentifier)
-        calendar.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: DayCellReuseIdentifier)
+        calendar.registerClass(DayCell.self, forCellWithReuseIdentifier: DayCellReuseIdentifier)
         calendar.delegate = self
         calendar.dataSource = self
         calendar.backgroundColor = UIColor.whiteColor()
