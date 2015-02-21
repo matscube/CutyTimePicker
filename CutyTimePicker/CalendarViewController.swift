@@ -40,6 +40,7 @@ class CalendarViewController: UIViewController, UICollectionViewDelegate, UIColl
         calendar.reloadData()
         let calendarHeight: CGFloat = 200
         calendar.frame.size = CGSizeMake(view.frame.width, calendarHeight)
+        calendar.frame.origin = CGPointMake(0, 0)
     }
     
     // MARK: - Layout
