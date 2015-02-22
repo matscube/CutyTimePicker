@@ -12,6 +12,7 @@ class CalendarViewController: UIViewController, UICollectionViewDelegate, UIColl
 
     let timeManager = TimeManager()
     private let backCalendarButton = UIButton()
+    private let nextCalendarButton = UIButton()
     private var calendar: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
