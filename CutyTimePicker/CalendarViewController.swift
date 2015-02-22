@@ -11,6 +11,7 @@ import UIKit
 class CalendarViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
 
     let timeManager = TimeManager()
+    private let backCalendarButton = UIButton()
     private var calendar: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
