@@ -11,6 +11,7 @@ import UIKit
 class CalendarViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
 
     let timeManager = TimeManager()
+    private let toolbar = UIView()
     private let backCalendarButton = UIButton()
     private let nextCalendarButton = UIButton()
     private var calendar: UICollectionView!
