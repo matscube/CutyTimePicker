@@ -19,6 +19,8 @@ class CalendarViewController: UIViewController, UICollectionViewDelegate, UIColl
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        toolbar.addSubview(backCalendarButton)
+        
         let layout = UICollectionViewFlowLayout()
         calendar = UICollectionView(frame: view.bounds, collectionViewLayout: layout)
         calendar.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: LabelCellReuseIdentifier)
